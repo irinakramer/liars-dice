@@ -45,9 +45,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-  color: #fff;
   background-color: green;
-  /* font-size: 12px; */
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -69,10 +67,6 @@ body {
   color: gold;
 }
 
-#content {
-  /* border: 1px solid red; */
-}
-
 #content span {
   width: 100px;
   height: 100px;
@@ -90,6 +84,8 @@ body {
   font-family: serif;
   font-size: large;
   font-weight: 600;
+  -webkit-box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
+  -moz-box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
   box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
   outline: none;
 }
@@ -105,7 +101,6 @@ body {
 }
 
 .dice {
-  /* border: 1px solid black; */
   border-radius: 10px;
   -webkit-box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
   -moz-box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
