@@ -78,7 +78,8 @@ body {
 
 #roll-dice {
   padding: 13px 33px;
-  background-color: gold;
+  background-color: darkred;
+  color: white;
   border: 0;
   border-radius: 5px;
   font-family: serif;
@@ -90,13 +91,12 @@ body {
   outline: none;
 }
 #roll-dice:hover {
-  background-color: goldenrod;
+  background-color: red;
   -webkit-box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
   -moz-box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
   box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
 }
 #roll-dice:active {
-  background-color: orangered;
   box-shadow: none;
 }
 
