@@ -1,8 +1,7 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Liar's Dice
+Client: Friends
+Author: Irina Kramer
 */
 
 /******************************************
@@ -57,13 +56,14 @@ body {
 /* Center the container */
 #container {
   width: 100%;
-  max-width: 770px;
+  max-width: 768px;
   margin: auto;
+  padding: 0.33rem;
   text-align: center;
 }
 #container h1 {
   font-family: "Gravitas One", serif;
-  font-size: 40px;
+  font-size: 1.75rem;
   color: gold;
 }
 
@@ -71,13 +71,14 @@ body {
   width: 100px;
   height: 100px;
   display: inline-block;
-  margin: 20px;
+  margin: 17px;
   background-repeat: no-repeat;
   background-position: top left;
 }
 
-#roll-dice {
-  padding: 13px 33px;
+input[type="button"] {
+  padding: 5px 15px;
+  margin: 5px;
   background-color: darkred;
   color: white;
   border: 0;
@@ -90,13 +91,13 @@ body {
   box-shadow: 3px 0px 23px 0px rgba(54, 54, 54, 0.59);
   outline: none;
 }
-#roll-dice:hover {
+input[type="button"]:hover {
   background-color: red;
   -webkit-box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
   -moz-box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
   box-shadow: 3px 3px 30px 0px rgba(15, 15, 15, 0.76);
 }
-#roll-dice:active {
+input[type="button"]:active {
   box-shadow: none;
 }
 
@@ -125,6 +126,20 @@ body {
 .dice-6 {
   background-image: url("../img/6.png");
 }
+.dice-dark {
+  background-image: none;
+  background-color: rgb(109, 109, 109);
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+  #container h1 {
+    font-size: 2.2rem;
+  }
+  #content span {
+    margin: 20px;
+  }
+}
